@@ -5,7 +5,7 @@ if __name__ == '__main__':
     while(True):
         x = input("enter what you want to say: ")
         if x == "q":
-            os.system("say 'bye bye friend'")
+            os.system("say 'bye bye friend, end of talking'")
             break
         command = f"Say {x}"
         os.system(command)
